@@ -13,7 +13,7 @@ let user
             switch(password){
                 case '123456':
                     user = "codecamp"
-                    alert("Welcome" + user)
+                    alert("Welcome" + " " + user)
                     break
                     default:
                         alert("wrong password")
