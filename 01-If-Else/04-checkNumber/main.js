@@ -1,6 +1,11 @@
-let Number = prompt("Enter your Number");
-if(Number > 0) alert("Positive Number")
-else if(Number == 0) alert("zero")
-else if(Number < 0) alert("Positive Number")
-else alert("Invalid Number")
+let number = prompt("Enter your Number");
+let check = parseInt(number)
+
+ if(isNaN(check) ) alert("Invalid Number")
+ else if(number > 0) alert("Positive Number")
+else if(number == 0) alert("zero")
+else if(number < 0) alert("Negative Number")
+
+// console.log(checkString)
+
 

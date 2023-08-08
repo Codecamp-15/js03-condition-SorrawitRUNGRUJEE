@@ -1,9 +1,8 @@
-let number1 = prompt("enter first nummber")
-let number2 = prompt("enter second nummber")
-let wrong = "Invalid Number"
-if(isNaN(number1)) alert(wrong)
-if(isNaN(number2)) alert(wrong)
-else alert(Number(number1) + Number(number2))
+let number1 = prompt("enter first number")
+let number2 = prompt("enter second number")
+let check = parseInt(number1,number2)
+if(isNaN(check)) alert("Invalid Number")
+else alert(+number1 + +number2)
 
 // let result = Number(number1) + Number(number2)
 // if(isNaN(result))alert("Invalid Number")
