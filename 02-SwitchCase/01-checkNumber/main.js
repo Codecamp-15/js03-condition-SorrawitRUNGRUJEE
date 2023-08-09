@@ -7,7 +7,7 @@ switch(+input){
     break;
     case 0:
         alert("Zero");
-    break;1111
+    break;
     case -1:
         alert("minus one")
     break;

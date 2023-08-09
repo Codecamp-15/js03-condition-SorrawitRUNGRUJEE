@@ -11,12 +11,12 @@ let user
         case "codecamp":
             let password = prompt("please enter your password")
             switch(password){
-                case '123456':
-                    user = "codecamp"
-                    alert("Welcome" + " " + user)
-                    break
-                default:
-                    alert("wrong password")
+            case '123456':
+                user = "codecamp"
+                alert("Welcome" + " " + user)
+                break
+            default:
+                alert("wrong password")
 
 
             }
