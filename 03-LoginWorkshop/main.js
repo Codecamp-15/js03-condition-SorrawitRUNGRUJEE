@@ -15,16 +15,17 @@ let user
                     user = "codecamp"
                     alert("Welcome" + " " + user)
                     break
-                    default:
-                        alert("wrong password")
+                default:
+                    alert("wrong password")
 
 
             }
-            break
+        break
+        
         default:
             user = "guest"
 
        
     }
 
-    alert(user)
+    alert(`welcome  ${user}`)
